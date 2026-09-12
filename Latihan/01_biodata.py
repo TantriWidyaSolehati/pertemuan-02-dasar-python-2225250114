@@ -1,0 +1,10 @@
+nama = input("Masukan nama Anda: ")
+NIM = input("Masukan NIM Anda: ")
+kelas = input("Masukan kelas Anda: ")
+Tahun_Lahir = int(input("Masukan tahun lahir Anda: "))
+Umur = (2026 - Tahun_Lahir)
+
+print("Nama: ", nama)
+print("NIM: ", NIM)
+print("Kelas: ", kelas)
+print("Umur: Sekitar", Umur, "tahun")
